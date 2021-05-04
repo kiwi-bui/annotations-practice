@@ -18,6 +18,19 @@ public class Person {
 
     private String address;
 
+    public Person(String first, String last, String age) {
+        super();
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+    }
+
+    public Person(String first, String last) {
+        super();
+        this.firstName = first;
+        this.lastName = last;
+    }
+
     @Init
     private void initNames() {
         this.firstName = this.firstName.substring(0, 1).toUpperCase() + this.firstName.substring(1);
