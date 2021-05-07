@@ -7,7 +7,6 @@ import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertEquals;
 
 public class JsonSerializerUnitTest {
-
     @Test
     public void givenObjectNotSerializedThenExceptionThrown() throws JsonSerializationException {
         Object object = new Object();

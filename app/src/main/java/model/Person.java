@@ -6,7 +6,6 @@ import annotations.practice.JsonSerializable;
 
 @JsonSerializable
 public class Person {
-
     @JsonElement
     private String firstName;
 
